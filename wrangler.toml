@@ -1,0 +1,14 @@
+name = "advanced-blogger-system"
+
+main = "worker.js"
+
+compatibility_date = "2026-05-29"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "blog-db"
+database_id = "1b001b25-6010-4fb7-bc2d-926daa795ee2"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "9b8370d20a9646b9aa73f63c9200379f"
